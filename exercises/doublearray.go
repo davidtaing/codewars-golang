@@ -13,7 +13,7 @@ func DoubleArray(arr []int) []int {
 	results := []int{}
 
 	for _, element := range arr {
-		results = append(results, element*3)
+		results = append(results, element*2)
 	}
 
 	return results
