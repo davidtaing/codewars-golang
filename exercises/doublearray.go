@@ -18,3 +18,14 @@ func DoubleArray(arr []int) []int {
 
 	return results
 }
+
+// Alternative Solution using Make instead.
+func AlternateDoubleArray(arr []int) []int {
+	results := make([]int, len(arr))
+
+	for i, element := range arr {
+		results[i] = element * 2
+	}
+
+	return results
+}
